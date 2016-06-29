@@ -36,3 +36,5 @@ function! TrimWhiteSpace()
 endfunction
 autocmd BufWritePre     *.js :call TrimWhiteSpace()
 
+let g:airline_powerline_fonts = 1
+
