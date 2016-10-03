@@ -16,7 +16,7 @@ set runtimepath^=~/.config/nvim/bundle/tagbar
 " set runtimepath^=~/.config/nvim/bundle/nerdtree
 
 " change airline theme.
-let g:airline_theme = 'light'
+let g:airline_theme = 'luna'
 
 " Ignore .gitignore entries.
 let g:ctrlp_user_command = ['.git', 'sh -c "cd %s && git ls-files -co --exclude-standard"']
@@ -71,4 +71,9 @@ nmap <C-K> :TagbarToggle<CR>
 
 " autocmd vimenter * NERDTree
 " map <C-n> :NERDTreeToggle<CR>
+
+let g:solarized_termcolors=256
+
+set background=dark
+colorscheme solarized
 
