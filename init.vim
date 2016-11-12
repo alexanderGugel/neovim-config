@@ -13,6 +13,7 @@ set runtimepath^=~/.config/nvim/bundle/vim-gitgutter
 set runtimepath^=~/.config/nvim/bundle/vim-airline
 set runtimepath^=~/.config/nvim/bundle/vim-airline-themes
 set runtimepath^=~/.config/nvim/bundle/tagbar
+set runtimepath^=~/.config/nvim/bundle/typescript-vim
 " set runtimepath^=~/.config/nvim/bundle/nerdtree
 
 " change airline theme.
@@ -76,4 +77,6 @@ let g:solarized_termcolors=256
 
 set background=dark
 colorscheme solarized
+
+set spell spelllang=en_us
 
